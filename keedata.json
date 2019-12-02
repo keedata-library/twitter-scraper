@@ -1,0 +1,4 @@
+{
+    "name": "Twitter Scraper",
+    "description": "Retrieves tweets based on a search. Without authentication."
+}
