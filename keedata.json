@@ -1,4 +1,19 @@
 {
     "name": "Twitter Scraper",
-    "description": "Retrieves tweets based on a search. Without authentication."
+    "description": "Retrieves tweets based on a search. Without authentication.",
+    "easyconfig": [{
+        "name": "Your twitter search",
+        "type": "input",
+        "required": true,
+        "value": "#GrowthHacking",
+        "actions": [
+            {
+                "type": "tasks",
+                "_id": "5e43e3d691356370ef6262f3",
+                "fields": ["get_data", "name"],
+                "method" : "replace",
+                "args": ["#GrowthHacking"]
+            }
+        ]
+    }]
 }
